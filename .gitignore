@@ -1,0 +1,11 @@
+# Ignore system-specific files
+.DS_Store
+
+# Ignore temporary files
+*.swp
+*~
+
+.idea
+
+# Ignore build artifacts
+/build/
