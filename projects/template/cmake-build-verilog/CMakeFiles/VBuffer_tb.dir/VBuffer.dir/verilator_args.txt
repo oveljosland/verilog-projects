@@ -1,0 +1,1 @@
+/Users/oveljosland/Verilog/libraries/verilator-v4.224/bin/verilator_bin;--compiler;clang;--prefix;VBuffer;--Mdir;/Users/oveljosland/Verilog/projects/template/cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir;--make;cmake;--coverage;--trace;--sc;Buffer.v

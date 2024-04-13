@@ -1,0 +1,3 @@
+/Users/oveljosland/Verilog/projects/template/cmake-build-verilog/CMakeFiles/VBuffer_tb.dir
+/Users/oveljosland/Verilog/projects/template/cmake-build-verilog/CMakeFiles/edit_cache.dir
+/Users/oveljosland/Verilog/projects/template/cmake-build-verilog/CMakeFiles/rebuild_cache.dir

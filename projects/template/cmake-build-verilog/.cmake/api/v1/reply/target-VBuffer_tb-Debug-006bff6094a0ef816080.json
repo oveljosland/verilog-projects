@@ -1,0 +1,385 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "VBuffer_tb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"set_target_properties",
+			"_verilator_find_systemc",
+			"verilator_link_systemc",
+			"target_compile_definitions",
+			"verilate",
+			"target_include_directories",
+			"target_link_libraries",
+			"target_compile_features",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/Users/oveljosland/Verilog/libraries/verilator-v4.224/verilator-config.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 416,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 400,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 329,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 300,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 327,
+				"parent" : 5
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 417,
+				"parent" : 2
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 350,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 301,
+				"parent" : 5
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 308,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "VM_COVERAGE=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VM_SC=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VM_TRACE=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VM_TRACE_FST=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "VM_TRACE_VCD=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/Users/oveljosland/Verilog/projects/template/cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include/vltstd"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/Users/oveljosland/Verilog/libraries/systemc-2.3.3/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					10
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14
+			]
+		}
+	],
+	"id" : "VBuffer_tb::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-I/opt/flex/flex-2.6.4/include -I/opt/bison/bison-3.7.91/share/include -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/opt/flex/flex-2.6.4/lib -L/opt/bison/bison-3.7.91/lib",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/oveljosland/Verilog/libraries/systemc-2.3.3/build/src",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/Users/oveljosland/Verilog/libraries/systemc-2.3.3/build/src/libsystemc.2.3.3.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "VBuffer_tb",
+	"nameOnDisk" : "VBuffer_tb",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				11,
+				12,
+				13,
+				14
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				10,
+				15,
+				16
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				17,
+				18
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Buffer_tb.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer___024root__DepSet_h0dfe99ea__0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer___024root__DepSet_hcd23f29f__0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer___024root__Slow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer___024root__DepSet_h0dfe99ea__0__Slow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer___024root__DepSet_hcd23f29f__0__Slow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer__Trace__0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer__Syms.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer__Trace__0__Slow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer_copy.cmake",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include/verilated.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include/verilated_cov.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include/verilated_vcd_c.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/include/verilated_vcd_sc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 12,
+			"path" : "Buffer.v",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 12,
+			"path" : "/Users/oveljosland/Verilog/libraries/verilator-v4.224/bin/verilator_bin",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer.cpp.rule",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-verilog/CMakeFiles/VBuffer_tb.dir/VBuffer.dir/VBuffer_copy.cmake.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
